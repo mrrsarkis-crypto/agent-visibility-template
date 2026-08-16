@@ -1,0 +1,9 @@
+{
+  "repo": "mrrsarkis-crypto/agent-visibility-template",
+  "description": "",
+  "languages": [
+    { "name": "TypeScript", "percent": 93 },
+    { "name": "CSS", "percent": 6 },
+    { "name": "HTML", "percent": 1 }
+  ]
+}
