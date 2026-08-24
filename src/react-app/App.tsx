@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, memo } from "react";
 import "./App.css";
 
 interface Surface {
@@ -145,6 +145,8 @@ function SurfacePreview({ surface }: { surface: Surface }) {
 		</div>
 	);
 }
+
+const MemoSurfacePreview = memo(SurfacePreview);
 
 export default function App() {
 	const { info, loading: siteLoading, error: siteError } = useSiteInfo();
